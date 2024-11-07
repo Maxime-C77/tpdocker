@@ -1,0 +1,18 @@
+Question 1 : Quelle est l’utilité de Docker Compose comparé à l’utilisation directe de Docker pour une application unique ?
+
+Réponse : Docker compose nous permet de gérer plusieurs containers en mêmes temps, on peut lancer un ou plusieurs containers en arrière-plan, on peut démarrer tout les services avec 
+docker-compose up et tous les arrêter avec docker-compose down
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Question 2 : Quelles différences observes-tu entre un fichier Dockerfile et un fichier docker-compose.yml ?
+
+Réponse : Dans le docker-compose.yml on peut définir un réseau, ajouter une fonction qui permet de redémarrer le service en cas de problème
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Question 3 : Comment Docker Compose facilite-t-il la gestion de plusieurs services ? Quels sont les avantages pour le déploiement en équipe ou en production ?
+
+Réponse : docker-compose up pour tout lancer / docker-compose down pour tout arrêter. Les différents services peuvent communiquer ensemble si ils sont renseignés dans 
+docker-compose.yml. On peut également utiliser des variables d'environnements. Le fichier docker-compose.yml peut être partagé avec toute une équipe pour que tout le monde puisse 
+travailler sur le même environnement de développement
